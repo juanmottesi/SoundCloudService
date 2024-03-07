@@ -1,6 +1,7 @@
 {
   "name": "soundcloud-model",
   "module": "index.ts",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
     "test": "jest",

@@ -1,10 +1,2 @@
-import { UserDraft, ArtistDraft, PlaylistDraft, SongDraft } from "./src/Draft";
-import SoundCloudService from "./src/SoundCloudService";
-
-export default {
-  SoundCloudService,
-  UserDraft,
-  ArtistDraft,
-  PlaylistDraft,
-  SongDraft,
-};
+export { UserDraft, ArtistDraft, PlaylistDraft, SongDraft } from "./src/Draft";
+export { default as SoundCloudService } from "./src/SoundCloudService";
